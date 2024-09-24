@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="14" passed="14" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Test case is pass]]>
+    </line>
+    <line>
+      <![CDATA[Test case is pass]]>
+    </line>
+    <line>
+      <![CDATA[Test case is pass]]>
+    </line>
+    <line>
+      <![CDATA[Test case is pass]]>
+    </line>
+    <line>
+      <![CDATA[Test case is pass]]>
+    </line>
+    <line>
+      <![CDATA[Test case is pass]]>
+    </line>
+    <line>
+      <![CDATA[Test case is pass]]>
+    </line>
+    <line>
+      <![CDATA[Test case is pass]]>
+    </line>
+    <line>
+      <![CDATA[Test case is pass]]>
+    </line>
+    <line>
+      <![CDATA[Test case is pass]]>
+    </line>
+    <line>
+      <![CDATA[Test case is pass]]>
+    </line>
+    <line>
+      <![CDATA[Test case is pass]]>
+    </line>
+    <line>
+      <![CDATA[Test case is pass]]>
+    </line>
+    <line>
+      <![CDATA[Test case is pass]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-09-10T17:21:53 IST" name="Suite" finished-at="2024-09-10T17:27:56 IST" duration-ms="362727">
+    <groups>
+    </groups>
+    <test started-at="2024-09-10T17:21:53 IST" name="Test" finished-at="2024-09-10T17:27:56 IST" duration-ms="362727">
+      <class name="project1_test.TestCase9">
+        <test-method is-config="true" signature="precondition()[pri:0, instance:project1_test.TestCase9@45099dd3]" started-at="2024-09-10T17:24:36 IST" name="precondition" finished-at="2024-09-10T17:24:40 IST" duration-ms="3543" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- precondition -->
+        <test-method signature="cartpage()[pri:0, instance:project1_test.TestCase9@45099dd3]" started-at="2024-09-10T17:24:40 IST" name="cartpage" finished-at="2024-09-10T17:24:51 IST" duration-ms="11879" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test case is pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- cartpage -->
+        <test-method is-config="true" signature="postcondition()[pri:0, instance:project1_test.TestCase9@45099dd3]" started-at="2024-09-10T17:24:52 IST" name="postcondition" finished-at="2024-09-10T17:24:54 IST" duration-ms="2389" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postcondition -->
+      </class> <!-- project1_test.TestCase9 -->
+      <class name="project1_test.TestCase7">
+        <test-method is-config="true" signature="precondition()[pri:0, instance:project1_test.TestCase7@2794eab6]" started-at="2024-09-10T17:23:46 IST" name="precondition" finished-at="2024-09-10T17:23:51 IST" duration-ms="4311" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- precondition -->
+        <test-method signature="productdetailspage()[pri:0, instance:project1_test.TestCase7@2794eab6]" started-at="2024-09-10T17:23:51 IST" name="productdetailspage" finished-at="2024-09-10T17:24:10 IST" duration-ms="19026" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test case is pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- productdetailspage -->
+        <test-method is-config="true" signature="postcondition()[pri:0, instance:project1_test.TestCase7@2794eab6]" started-at="2024-09-10T17:24:10 IST" name="postcondition" finished-at="2024-09-10T17:24:12 IST" duration-ms="2439" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postcondition -->
+      </class> <!-- project1_test.TestCase7 -->
+      <class name="project1_test.TestCase8">
+        <test-method is-config="true" signature="precondition()[pri:0, instance:project1_test.TestCase8@6340e5f0]" started-at="2024-09-10T17:24:12 IST" name="precondition" finished-at="2024-09-10T17:24:16 IST" duration-ms="3863" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- precondition -->
+        <test-method signature="productsortpage()[pri:0, instance:project1_test.TestCase8@6340e5f0]" started-at="2024-09-10T17:24:16 IST" name="productsortpage" finished-at="2024-09-10T17:24:33 IST" duration-ms="17030" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test case is pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- productsortpage -->
+        <test-method is-config="true" signature="postcondition()[pri:0, instance:project1_test.TestCase8@6340e5f0]" started-at="2024-09-10T17:24:34 IST" name="postcondition" finished-at="2024-09-10T17:24:36 IST" duration-ms="2345" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postcondition -->
+      </class> <!-- project1_test.TestCase8 -->
+      <class name="project1_test.TestCase10">
+        <test-method is-config="true" signature="precondition()[pri:0, instance:project1_test.TestCase10@13e344d]" started-at="2024-09-10T17:24:54 IST" name="precondition" finished-at="2024-09-10T17:24:57 IST" duration-ms="3396" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- precondition -->
+        <test-method signature="updatingcartpage()[pri:0, instance:project1_test.TestCase10@13e344d]" started-at="2024-09-10T17:24:57 IST" name="updatingcartpage" finished-at="2024-09-10T17:25:19 IST" duration-ms="21909" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test case is pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- updatingcartpage -->
+        <test-method is-config="true" signature="postcondition()[pri:0, instance:project1_test.TestCase10@13e344d]" started-at="2024-09-10T17:25:19 IST" name="postcondition" finished-at="2024-09-10T17:25:22 IST" duration-ms="2348" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postcondition -->
+      </class> <!-- project1_test.TestCase10 -->
+      <class name="project1_test.TestCase11">
+        <test-method is-config="true" signature="precondition()[pri:0, instance:project1_test.TestCase11@1ffaf86]" started-at="2024-09-10T17:25:22 IST" name="precondition" finished-at="2024-09-10T17:25:25 IST" duration-ms="3485" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- precondition -->
+        <test-method signature="checkoutprocess()[pri:0, instance:project1_test.TestCase11@1ffaf86]" started-at="2024-09-10T17:25:25 IST" name="checkoutprocess" finished-at="2024-09-10T17:26:03 IST" duration-ms="37468" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test case is pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkoutprocess -->
+        <test-method is-config="true" signature="postcondition()[pri:0, instance:project1_test.TestCase11@1ffaf86]" started-at="2024-09-10T17:26:03 IST" name="postcondition" finished-at="2024-09-10T17:26:05 IST" duration-ms="2440" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postcondition -->
+      </class> <!-- project1_test.TestCase11 -->
+      <class name="project1_test.TestCase1">
+        <test-method is-config="true" signature="precondition()[pri:0, instance:project1_test.TestCase1@27f981c6]" started-at="2024-09-10T17:21:53 IST" name="precondition" finished-at="2024-09-10T17:22:00 IST" duration-ms="6545" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- precondition -->
+        <test-method signature="registration()[pri:0, instance:project1_test.TestCase1@27f981c6]" started-at="2024-09-10T17:22:00 IST" name="registration" finished-at="2024-09-10T17:22:08 IST" duration-ms="8096" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test case is pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- registration -->
+        <test-method is-config="true" signature="postcondition()[pri:0, instance:project1_test.TestCase1@27f981c6]" started-at="2024-09-10T17:22:08 IST" name="postcondition" finished-at="2024-09-10T17:22:11 IST" duration-ms="2516" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postcondition -->
+      </class> <!-- project1_test.TestCase1 -->
+      <class name="project1_test.TestCase2">
+        <test-method is-config="true" signature="precondition()[pri:0, instance:project1_test.TestCase2@38cee291]" started-at="2024-09-10T17:22:11 IST" name="precondition" finished-at="2024-09-10T17:22:16 IST" duration-ms="5296" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- precondition -->
+        <test-method signature="login()[pri:0, instance:project1_test.TestCase2@38cee291]" started-at="2024-09-10T17:22:16 IST" name="login" finished-at="2024-09-10T17:22:20 IST" duration-ms="4133" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test case is pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="postcondition()[pri:0, instance:project1_test.TestCase2@38cee291]" started-at="2024-09-10T17:22:22 IST" name="postcondition" finished-at="2024-09-10T17:22:25 IST" duration-ms="2392" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postcondition -->
+      </class> <!-- project1_test.TestCase2 -->
+      <class name="project1_test.TestCase5">
+        <test-method is-config="true" signature="precondition()[pri:0, instance:project1_test.TestCase5@e350b40]" started-at="2024-09-10T17:23:02 IST" name="precondition" finished-at="2024-09-10T17:23:06 IST" duration-ms="4031" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- precondition -->
+        <test-method signature="searchproduct()[pri:0, instance:project1_test.TestCase5@e350b40]" started-at="2024-09-10T17:23:06 IST" name="searchproduct" finished-at="2024-09-10T17:23:08 IST" duration-ms="2005" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test case is pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- searchproduct -->
+        <test-method is-config="true" signature="postcondition()[pri:0, instance:project1_test.TestCase5@e350b40]" started-at="2024-09-10T17:23:11 IST" name="postcondition" finished-at="2024-09-10T17:23:13 IST" duration-ms="2355" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postcondition -->
+      </class> <!-- project1_test.TestCase5 -->
+      <class name="project1_test.TestCase15">
+        <test-method is-config="true" signature="precondition()[pri:0, instance:project1_test.TestCase15@1c7696c6]" started-at="2024-09-10T17:27:37 IST" name="precondition" finished-at="2024-09-10T17:27:42 IST" duration-ms="4692" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- precondition -->
+        <test-method signature="cartpagewithoutlogin()[pri:0, instance:project1_test.TestCase15@1c7696c6]" started-at="2024-09-10T17:27:42 IST" name="cartpagewithoutlogin" finished-at="2024-09-10T17:27:53 IST" duration-ms="11316" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test case is pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- cartpagewithoutlogin -->
+        <test-method is-config="true" signature="postcondition()[pri:0, instance:project1_test.TestCase15@1c7696c6]" started-at="2024-09-10T17:27:53 IST" name="postcondition" finished-at="2024-09-10T17:27:56 IST" duration-ms="2300" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postcondition -->
+      </class> <!-- project1_test.TestCase15 -->
+      <class name="project1_test.TestCase6">
+        <test-method is-config="true" signature="precondition()[pri:0, instance:project1_test.TestCase6@41a0aa7d]" started-at="2024-09-10T17:23:13 IST" name="precondition" finished-at="2024-09-10T17:23:17 IST" duration-ms="3447" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- precondition -->
+        <test-method signature="searchwithfilters()[pri:0, instance:project1_test.TestCase6@41a0aa7d]" started-at="2024-09-10T17:23:17 IST" name="searchwithfilters" finished-at="2024-09-10T17:23:43 IST" duration-ms="26544" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test case is pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- searchwithfilters -->
+        <test-method is-config="true" signature="postcondition()[pri:0, instance:project1_test.TestCase6@41a0aa7d]" started-at="2024-09-10T17:23:44 IST" name="postcondition" finished-at="2024-09-10T17:23:46 IST" duration-ms="2358" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postcondition -->
+      </class> <!-- project1_test.TestCase6 -->
+      <class name="project1_test.TestCase12">
+        <test-method is-config="true" signature="precondition()[pri:0, instance:project1_test.TestCase12@6574a52c]" started-at="2024-09-10T17:26:05 IST" name="precondition" finished-at="2024-09-10T17:26:09 IST" duration-ms="3651" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- precondition -->
+        <test-method signature="selecteachpaymentmethod()[pri:0, instance:project1_test.TestCase12@6574a52c]" started-at="2024-09-10T17:26:09 IST" name="selecteachpaymentmethod" finished-at="2024-09-10T17:26:47 IST" duration-ms="38105" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test case is pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- selecteachpaymentmethod -->
+        <test-method is-config="true" signature="postcondition()[pri:0, instance:project1_test.TestCase12@6574a52c]" started-at="2024-09-10T17:26:47 IST" name="postcondition" finished-at="2024-09-10T17:26:50 IST" duration-ms="3182" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postcondition -->
+      </class> <!-- project1_test.TestCase12 -->
+      <class name="project1_test.TestCase3">
+        <test-method is-config="true" signature="precondition()[pri:0, instance:project1_test.TestCase3@4b45a2f5]" started-at="2024-09-10T17:22:25 IST" name="precondition" finished-at="2024-09-10T17:22:28 IST" duration-ms="3375" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- precondition -->
+        <test-method signature="login_incorrect()[pri:0, instance:project1_test.TestCase3@4b45a2f5]" started-at="2024-09-10T17:22:28 IST" name="login_incorrect" finished-at="2024-09-10T17:22:33 IST" duration-ms="4872" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test case is pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login_incorrect -->
+        <test-method is-config="true" signature="postcondition()[pri:0, instance:project1_test.TestCase3@4b45a2f5]" started-at="2024-09-10T17:22:36 IST" name="postcondition" finished-at="2024-09-10T17:22:38 IST" duration-ms="2402" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postcondition -->
+      </class> <!-- project1_test.TestCase3 -->
+      <class name="project1_test.TestCase13">
+        <test-method is-config="true" signature="precondition()[pri:0, instance:project1_test.TestCase13@6c1a5b54]" started-at="2024-09-10T17:26:50 IST" name="precondition" finished-at="2024-09-10T17:26:54 IST" duration-ms="3855" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- precondition -->
+        <test-method signature="applycouponcode()[pri:0, instance:project1_test.TestCase13@6c1a5b54]" started-at="2024-09-10T17:26:54 IST" name="applycouponcode" finished-at="2024-09-10T17:27:35 IST" duration-ms="40540" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test case is pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- applycouponcode -->
+        <test-method is-config="true" signature="postcondition()[pri:0, instance:project1_test.TestCase13@6c1a5b54]" started-at="2024-09-10T17:27:35 IST" name="postcondition" finished-at="2024-09-10T17:27:37 IST" duration-ms="2416" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postcondition -->
+      </class> <!-- project1_test.TestCase13 -->
+      <class name="project1_test.TestCase4">
+        <test-method is-config="true" signature="precondition()[pri:0, instance:project1_test.TestCase4@f09733f]" started-at="2024-09-10T17:22:38 IST" name="precondition" finished-at="2024-09-10T17:22:42 IST" duration-ms="3385" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- precondition -->
+        <test-method signature="editprofile()[pri:0, instance:project1_test.TestCase4@f09733f]" started-at="2024-09-10T17:22:42 IST" name="editprofile" finished-at="2024-09-10T17:22:59 IST" duration-ms="17597" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test case is pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- editprofile -->
+        <test-method is-config="true" signature="postcondition()[pri:0, instance:project1_test.TestCase4@f09733f]" started-at="2024-09-10T17:23:00 IST" name="postcondition" finished-at="2024-09-10T17:23:02 IST" duration-ms="2332" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postcondition -->
+      </class> <!-- project1_test.TestCase4 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

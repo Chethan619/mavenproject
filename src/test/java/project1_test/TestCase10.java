@@ -3,6 +3,9 @@ package project1_test;
 import java.util.Iterator;
 import java.util.Set;
 
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+import org.testng.Assert;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
@@ -34,5 +37,7 @@ public class TestCase10 extends Amazon_LaunchQuit
 	Thread.sleep(1000);
 	c1.del_ete();
 	Thread.sleep(1000);
+    WebElement proceedtobuy= driver.findElement(By.name("proceedToRetailCheckout"));
+	Assert.assertEquals(proceedtobuy.isDisplayed(), true, "Incorrect");
 	}
 }

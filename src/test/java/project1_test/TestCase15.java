@@ -26,5 +26,7 @@ public class TestCase15 extends Amazon_LaunchQuit
 	Cartpage_Amazon c1=new Cartpage_Amazon(driver);
 	c1.add_to_cart();
 	c1.go_to_cart();
+	String s2=driver.getCurrentUrl();
+	Assert.assertEquals(s2.contains("cart"), true, "Incorrect");
 	}
 }

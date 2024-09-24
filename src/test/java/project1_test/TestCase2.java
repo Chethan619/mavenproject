@@ -3,6 +3,7 @@ package project1_test;
 import java.io.IOException;
 
 import org.apache.poi.EncryptedDocumentException;
+import org.testng.Assert;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 import project1_source.Homepage_Amazon;
@@ -24,5 +25,6 @@ public class TestCase2 extends Amazon_LaunchQuit
     	l1.clickcontinue();
     	l1.pwd();
     	l1.clicksubmit();
+    	Assert.assertEquals(driver.getTitle(), "Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in", "Login not successful");
     }
 }

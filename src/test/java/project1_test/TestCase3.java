@@ -3,6 +3,7 @@ package project1_test;
 import java.io.IOException;
 
 import org.apache.poi.EncryptedDocumentException;
+import org.testng.Assert;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
@@ -22,5 +23,7 @@ public class TestCase3 extends Amazon_LaunchQuit
 	   l1.clickcontinue();
 	   l1.incorrectpwd();
 	   l1.clicksubmit();
+	   String incorrect=driver.getCurrentUrl();
+	   Assert.assertEquals(incorrect.contains("request"), true, "Incorrect");
    }
 }

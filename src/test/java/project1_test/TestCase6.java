@@ -1,5 +1,6 @@
 package project1_test;
 
+import org.testng.Assert;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
@@ -19,6 +20,7 @@ public class TestCase6 extends Amazon_LaunchQuit
 		s1.sort_by_brand();
 		s1.price_range_slider();
 		s1.price_range_submit();
-		
+		String s2=driver.getCurrentUrl();
+		Assert.assertEquals(s2.contains("shoes"), true, "Incorrect");
     }
 }

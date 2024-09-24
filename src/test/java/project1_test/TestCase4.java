@@ -3,6 +3,9 @@ package project1_test;
 import java.io.IOException;
 
 import org.apache.poi.EncryptedDocumentException;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+import org.testng.Assert;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
@@ -46,5 +49,7 @@ public class TestCase4 extends Amazon_LaunchQuit
     	Thread.sleep(1000);
     	p1.save_button();
     	Thread.sleep(1000);
+    	WebElement profile=driver.findElement(By.xpath("//div[.='Your Profile']"));
+    	Assert.assertEquals(profile.isDisplayed(), true, "Incorrect");
     }
 }

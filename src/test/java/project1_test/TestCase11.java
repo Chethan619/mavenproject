@@ -53,6 +53,5 @@ public class TestCase11 extends Amazon_LaunchQuit
 	a1.i_frame(driver);
 	Thread.sleep(1000);
 	a1.credit_card_number();
-	
 	}
 }

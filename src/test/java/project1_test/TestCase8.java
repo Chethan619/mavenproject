@@ -1,5 +1,6 @@
 package project1_test;
 
+import org.testng.Assert;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
@@ -20,5 +21,7 @@ public class TestCase8 extends Amazon_LaunchQuit
 	Thread.sleep(1000);
 	s1.sort_by_rating();
 	Thread.sleep(1000);
+	String s2=driver.getCurrentUrl();
+	Assert.assertEquals(s2.contains("price-asc-rank"), true, "Incorrect");
 	}
 }

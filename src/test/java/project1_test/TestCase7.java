@@ -3,6 +3,9 @@ package project1_test;
 import java.util.Iterator;
 import java.util.Set;
 
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+import org.testng.Assert;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
@@ -27,5 +30,7 @@ public class TestCase7 extends Amazon_LaunchQuit
 	Thread.sleep(2000);
 	p1.product_review(driver);
 	Thread.sleep(2000);
+	WebElement review=driver.findElement(By.id("cm_cr_dp_d_write_review"));
+	Assert.assertEquals(review.isDisplayed(), true, "Incorrect");
 	}
 }

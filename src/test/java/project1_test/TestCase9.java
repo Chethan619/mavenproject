@@ -1,6 +1,7 @@
 package project1_test;
 
 
+import org.testng.Assert;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
@@ -21,5 +22,7 @@ public class TestCase9 extends Amazon_LaunchQuit
 	Cartpage_Amazon c1=new Cartpage_Amazon(driver);
 	c1.add_to_cart();
 	c1.go_to_cart();
+	String s2 = driver.getTitle();
+	Assert.assertEquals(s2.contains("Cart"), true, "Incorrect");
 	}
 }
